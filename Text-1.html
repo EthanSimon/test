@@ -1,9 +1,17 @@
 <html>
     <head>
+    </head>
+    <body>
+        <h1>Test!</h1>
+        <p id="test">##Example##</p>
+        <p id="count"></p>
+        <p id="demo"></p>
         <script>
-        var counter;
+        var counter, x;
         counter = 0;
+        x = 12
         document.getElementById("count").innerHTML = counter;
+        document.getElementById("demo").innerHTML = x;
         function increase() {
                 counter++;
                 return false;
@@ -18,11 +26,6 @@
                 }
             }
         </script>
-    </head>
-    <body>
-        <h1>Test!</h1>
-        <p id="test">##Example##</p>
-        <p id="count">0</p>
         <button type="button" onclick="myFunction()" onclick="increase()">Click me!</button>
         <div>
             <ul>
