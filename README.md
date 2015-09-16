@@ -1,3 +1,3 @@
 # test
 
-test this shit
+This is all a test of GitHub
