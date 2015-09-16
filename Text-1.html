@@ -5,28 +5,9 @@
         <h1>Test!</h1>
         <p id="test">##Example##</p>
         <p id="count"></p>
-        <p id="demo"></p>
-        <script>
-        var counter, x;
-        counter = 0;
-        x = 12
-        document.getElementById("count").innerHTML = counter;
-        document.getElementById("demo").innerHTML = x;
-        function increase() {
-                counter++;
-                return false;
-            }
-            function myFunction() {
-                if (document.getElementById("test").innerHTML === "##Test!##"){
-                    document.getElementById("test").innerHTML = "##Example!##" ;
-                }
-                else {
-                document.getElementById("test").innerHTML = "##Test!##" ;
-                
-                }
-            }
-        </script>
+        <script type = "text/javascript" src="test.js"></script>
         <button type="button" onclick="myFunction()" onclick="increase()">Click me!</button>
+        <button type="button" onclick="printCounter">Test</button>
         <div>
             <ul>
                 <li>test1</li>
